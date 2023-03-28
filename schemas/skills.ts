@@ -1,7 +1,7 @@
-export default {
+export default{
     name:'skills',
     title:'Skills',
-    type:'document',
+    type: 'document',
     fields:[
         {
             name:'name',
@@ -9,18 +9,18 @@ export default {
             type:'string'
         },
         {
-            name:'skill',
-            title:'Skill',
+            name:'bgColor',
+            title:'BgColor',
             type:'string'
         },
         {
-            name:'image',
-            title:'Image',
-            type:'image',
-            options:{
-                hotspot: true
-            }
-            
-        }
+            name:'icon',
+            title:'Icon',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        
     ]
 }
