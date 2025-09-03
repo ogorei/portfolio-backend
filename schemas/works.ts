@@ -45,6 +45,20 @@ export default {
          }
        ]
       },
+      {
+        name: 'skillIcons',
+        title: 'Skill Icons',
+        type: 'array',
+        of: [
+          {
+            type: 'reference',
+            to: [{ type: 'skills' }],
+            options: {
+              filter: 'defined(icon)'
+            }
+          }
+        ]
+      },
      
     ],
   };
