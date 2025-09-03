@@ -21,23 +21,6 @@ export default{
               hotspot: true,
             },
         },
-        {
-            name:'description',
-            title:'Description',
-            type:'string'
-        },
-        {
-            name:'tags',
-            title:'Tags',
-            type:'array',
-            of: [
-              {
-                name:'tag',
-                title:'Tag',
-                type:'string'
-              }
-            ]
-        },
         
     ]
 }
